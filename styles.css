@@ -289,3 +289,23 @@ i {
   animation-play-state: paused;
   cursor: pointer;
 }
+
+.featured-image {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  min-height: 80vh;
+  width: 100%;
+}
+
+.image {
+  margin-top: 10%;
+  overflow: hidden;
+  animation: imgFloat 5s ease-in-out infinite;
+}
+
+@keyframes imgFloat {
+  50% {
+    transform: translateY(50px);
+  }
+}
